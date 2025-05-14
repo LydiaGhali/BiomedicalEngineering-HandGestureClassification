@@ -1,9 +1,9 @@
 # EMG and EEG Signal Processing and Analysis
 
-## 📌 Project Overview
+## Project Overview
 This project explores advanced signal processing and feature extraction techniques for electromyography (EMG) signals in a biomedical context. The main focus is on real-time identification and classification of hand gestures based on EMG signals collected from multiple sensors. This work contributes to the development of robust EMG processing pipelines that can be used for assistive technologies, rehabilitation devices, or prosthetic control.
 
-## 📊 Dataset
+## Dataset
 
 ### EMG daata:
 
