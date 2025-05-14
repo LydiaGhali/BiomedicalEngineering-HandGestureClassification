@@ -1,17 +1,18 @@
 # EMG and EEG Signal Processing and Analysis
 
 ## Project Overview
-This project explores advanced signal processing and feature extraction techniques for electromyography (EMG) signals in a biomedical context. The main focus is on real-time identification and classification of hand gestures based on EMG signals collected from multiple sensors. This work contributes to the development of robust EMG processing pipelines that can be used for assistive technologies, rehabilitation devices, or prosthetic control.
+This project aims to better understand the human neuromuscular system and brain activity by analyzing physiological signals and using them to classify different motions. In our implementation, we worked with both EMG and EEG data—applying preprocessing and feature extraction techniques—then used that data to train machine learning models for gesture classification. We also built a real-time system for detecting hand gestures using EMG sensors.
 
-## Dataset
 
-### EMG daata:
+## Datasets
 
 We used publicly available data from the UCI Machine Learning Repository:  
-🔗 [EMG Data for Gestures](https://archive.ics.uci.edu/dataset/481/emg+data+for+gestures)
+🔗 [EMG data for different hand gestures](https://archive.ics.uci.edu/dataset/481/emg+data+for+gestures)
+🔗 [EEG data for different eye states](https://archive.ics.uci.edu/dataset/264/eeg+eye+state)
 
 - **Data Description**:
-  - EMG readings from **8 sensors**, collected from **35 patients**, which include **7 different hand movement classes**.
+  - **EMG**: readings from **8 sensors**, collected from **35 patients**, which include **7 different hand movement classes**.
+  - **EEG**: readings from **14 channels**, collected from **1 patient**, which include **2 eye states** open and closed.
 ---
 
 ## Our Codes:
